@@ -1,1 +1,1 @@
-This is a test locatioin for the READ ME
+COMING SOON BUT FEEL FREE TO LOOK AROUND FOR BONUS CONTENT
