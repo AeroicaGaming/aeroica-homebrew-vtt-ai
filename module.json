@@ -1,0 +1,99 @@
+{
+  "id": "aeroica-homebrew-vtt-ai",
+  "name": "aeroica-homebrew-vtt-ai",
+  "title": "Aeroica's Homebrew VTT - AI Edition",
+  "description": "<p align='center'><img src='https://raw.githubusercontent.com/AeroicaGaming/aeroica-homebrew-vtt-ai/main/assets/2023%20STATIC%20LOGO%20.png' width='250'></p><p>A curated collection of homebrew magic items designed specifically for Foundry VTT. These items are automation-ready and organized for easy integration into your games.</p><hr><p><b>Optional Animation Support</b></p><p>This module integrates with Automated Animations.</p><p>For the best visual experience the <b>JB2A Patreon</b> animation package is recommended.</p><p>The module will function without JB2A Patreon, however some items may not <b>display visual effects correctly</b>.</p><hr><p><b>Bug Reports:</b> Please report issues to <a href='mailto:Aeroica@proton.me'>Aeroica@proton.me</a></p>",
+  "version": "1.0.0",
+  "manifest": "https://raw.githubusercontent.com/AeroicaGaming/aeroica-homebrew-vtt-ai/main/module.json",
+  "download": "https://github.com/AeroicaGaming/aeroica-homebrew-vtt-ai/releases/download/v1.0.0/aeroica-homebrew-vtt-ai.zip",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Aeroica Gaming",
+      "email": "Aeroica@proton.me",
+      "url": "https://github.com/AeroicaGaming"
+    }
+  ],
+  "url": "https://github.com/AeroicaGaming/aeroica-homebrew-vtt-ai",
+  "bugs": "https://github.com/AeroicaGaming/aeroica-homebrew-vtt-ai/issues",
+  "changelog": "https://raw.githubusercontent.com/AeroicaGaming/aeroica-homebrew-vtt-ai/main/CHANGELOG.md",
+  "categories": [
+    "Content Packs"
+  ],
+  "packs": [
+    {
+      "name": "item-1-homebrew-items",
+      "label": "Homebrew Items",
+      "path": "packs/item-1-homebrew-items",
+      "type": "Item",
+      "package": "aeroica-homebrew-vtt-ai"
+    },
+    {
+      "name": "actor-1-actors",
+      "label": "Actors",
+      "path": "packs/actor-1-actors",
+      "type": "Actor",
+      "package": "aeroica-homebrew-vtt-ai"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Aeroica's Homebrew VTT - AI Edition",
+      "sorting": "m",
+      "color": "#7a3bbd",
+      "packs": [
+        "item-1-homebrew-items",
+        "actor-1-actors"
+      ]
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system"
+      }
+    ],
+    "requires": [
+      {
+        "id": "midi-qol",
+        "type": "module"
+      },
+      {
+        "id": "dae",
+        "type": "module"
+      },
+      {
+        "id": "chris-premades",
+        "type": "module"
+      },
+      {
+        "id": "ActiveAuras",
+        "type": "module"
+      },
+      {
+        "id": "autoanimations",
+        "type": "module"
+      }
+    ],
+    "recommends": [
+      {
+        "id": "jb2a_patreon",
+        "type": "module"
+      }
+    ]
+  },
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "media": [
+    {
+      "type": "setup",
+      "url": "https://raw.githubusercontent.com/AeroicaGaming/aeroica-homebrew-vtt-ai/main/assets/2023%20STATIC%20LOGO%20.png"
+    }
+  ]
+}
