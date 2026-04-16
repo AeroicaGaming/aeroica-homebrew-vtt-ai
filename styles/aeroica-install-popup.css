@@ -1,0 +1,115 @@
+.aeroica-welcome {
+  padding: 0.75rem;
+  color: var(--color-text-primary);
+}
+
+.aeroica-welcome__header {
+  display: grid;
+  grid-template-columns: 190px 1fr;
+  gap: 1.75rem;
+  align-items: center;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--color-border-light-primary);
+}
+
+.aeroica-welcome__logo-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 180px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--color-border-light-primary);
+  overflow: hidden;
+}
+
+.aeroica-welcome__logo {
+  width: 168px;
+  height: 168px;
+  object-fit: contain;
+  display: block;
+}
+
+.aeroica-welcome__eyebrow {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.7;
+  margin-bottom: 0.25rem;
+}
+
+.aeroica-welcome__title {
+  margin: 0 0 0.5rem 0;
+  line-height: 1.1;
+  font-size: 1.7rem;
+}
+
+.aeroica-welcome__meta {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.aeroica-welcome__badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  border: 1px solid var(--color-border-light-primary);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.aeroica-welcome__badge--status {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.aeroica-welcome__body {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.aeroica-welcome__lead {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.aeroica-welcome__card {
+  padding: 0.9rem 1rem;
+  border-radius: 12px;
+  border: 1px solid var(--color-border-light-primary);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.aeroica-welcome__section-title {
+  margin: 0 0 0.4rem 0;
+  font-size: 1rem;
+}
+
+.aeroica-welcome__card p {
+  margin: 0.35rem 0 0 0;
+}
+
+.aeroica-welcome__footer-note {
+  margin: 0.25rem 0 0 0;
+  font-size: 0.88rem;
+  opacity: 0.72;
+}
+
+.application.dialog.aeroica-welcome-dialog .window-content,
+.aeroica-welcome-dialog .window-content {
+  padding: 0.75rem 0.9rem 0.9rem 0.9rem;
+}
+
+.aeroica-welcome-dialog .dialog-buttons,
+.aeroica-welcome-dialog footer {
+  gap: 0.5rem;
+}
+
+.aeroica-welcome-dialog button {
+  min-height: 36px;
+}
