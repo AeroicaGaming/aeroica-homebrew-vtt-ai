@@ -1,7 +1,7 @@
 const MODULE_ID = "aeroica-homebrew-vtt-ai";
 const POPUP_SETTING = "lastSeenAiUpdateVersion";
 
-const LOGO_PATH = "https://raw.githubusercontent.com/AeroicaGaming/aeroica-homebrew-vtt-ai/main/assets/2023%20STATIC%20LOGO%20.png";
+const LOGO_PATH = "modules/aeroica-homebrew-vtt-ai/assets/aeroica-logo.webp";
 const MANIFEST_URL = "https://raw.githubusercontent.com/AeroicaGaming/aeroica-homebrew-vtt-ai/main/module.json";
 const RELEASES_URL = "https://github.com/AeroicaGaming/aeroica-homebrew-vtt-ai/releases";
 
