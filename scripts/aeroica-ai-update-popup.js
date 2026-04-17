@@ -86,13 +86,13 @@ async function renderAeroicaAiUpdateDialog({ currentVersion, remoteVersion }) {
       </p>
 
       <div class="aeroica-welcome__card">
-        <h2 class="aeroica-welcome__section-title">Installed Version</h2>
-        <p>${currentVersion}</p>
+        <h2 class="aeroica-welcome__section-title">New Changes</h2>
+        <p>REPLACE TEXT HERE</p>
       </div>
 
       <div class="aeroica-welcome__card">
-        <h2 class="aeroica-welcome__section-title">Latest Available Version</h2>
-        <p>${remoteVersion}</p>
+        <h2 class="aeroica-welcome__section-title">Whats New!</h2>
+        <p>REPLACE TEXT HERE</p>
       </div>
 
       <div class="aeroica-welcome__card">
